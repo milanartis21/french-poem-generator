@@ -7,6 +7,7 @@
     <title> AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1> Welcome to the AI French Poem Generator</h1>
     </header>
@@ -17,10 +18,11 @@
             autofocus
             required 
             autocomplete="off" 
+            class="instructions"
             />
-            <input type="submit"/>
+            <input type="submit" class="submit-button"/>
         </form>
-        <div>
+        <div class="poem">
             The poem is here
         </div>
 
@@ -30,6 +32,7 @@
         <a href="https://github.com/milanartis21/french-poem-generator/tree/main/src ">GitHub</a>
         and hosted on <a href="https://frenchpoemgenerator.netlify.app/ ">Netlify</a>
     </footer>
+    </div>
 
     <script src="index.js"></script>
 </body>
